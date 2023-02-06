@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/View/Style/index.css">
+    <link rel="stylesheet" href="src/View/Style/sobre.css">
+    <link rel="stylesheet" href="src/View/Style/service.css">
+    <link rel="stylesheet" href="src/View/font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/View/Style/contact.css">
+    <title>Portifoleo Adilson Manuel</title>
+</head>
+<body>
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li> <a href="#"> <span>Home</span> </a> </li>
+            <li> <a href="#about"><span>About</span> </a> </li>
+            <li> <a href="">Project</a> </li>
+            <li> <a href="">Contact</a> </li>
+        </ul>
+    </nav>
+
+    <!-- Open -->
+   <div class="open-containner">
+    <div class="open">
+        <div class="open-desc">
+         <h2>Adilson Manuel</h2>
+         <h1>Dev Mobile & Back-end </h1> 
+         <p>
+             Olá, Meu nome é Adilson Manuel e sou estudante e entusiaste de Programação <br>
+             Gosto muito de programar com Flutter, PHP e C#
+         </p>
+        <button type="button" class="baixar"> <img src="src/img/dowload1.png " width="10" height="10" alt=""> Dowload do CV</button>
+ 
+        <div class="redes-socias">
+         <button type="button"><a href="https://github.com/AdilsonManuel1 " target="_blank"><img src="src/img/git.png" width="30" height="30" alt=""></a> </button>
+         <button type="button"> <a href="https://www.linkedin.com/in/adilson-manuel-85061918b/"target="_blank"> <img src="src/img/linkdin.png" width="30" height="30" alt=""> </a></button>
+ 
+        </div>
+        </div>
+     </div>
+
+     <div class="open-image">   
+        <div class="open-image1">
+            <img src="src/img/adilson.png" width="70%" alt="">
+        </div>
+      
+        
+
+     </div>
+   </div>
+
+   <div class="about">
+        <h2>Ab<span>out</span>  Me</h2>
+
+        <div class="about-desc">
+            Olá, sou o Adilson tenho 27 anos de idade sou estudante de informática e me considero um intusiasta de tecnologia <br>
+            Estudo desenvolvimento Back-end para poder atuar no mercado de trabalho como desenvolvedor, Back-end ou Mobile com flutter <br>
+
+        </div>
+   </div>
+
+   <div class="myservice">
+     <h2>My Services</h2>
+    <div class="mobile">
+      <a href=""><img src="src/img/mobile dev.jpg" width="100%"height="100%"  alt=""></a>  
+    </div>
+
+    <div class="back">
+    <a href=""> <img src="src/img/backend.png" width="100%" height="100%" alt=""></a>  
+    </div>
+   </div>
+
+   <div class="contact">
+    <div class="contact-me">
+            <h3>Contat</h3>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> +244 922943507 </p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> adilson.manuel1@hotmail.com</p>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Camama1 Luanda</p>
+
+    </div>
+
+    <div class="contact-me-send">
+        <div class="send">
+            <form action="/src/Controller/command/pedido.php"  method="post">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Nome" name="nome">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="email" name="email"> <br>
+                <label for="subject">Your Subject</label> <br>
+                <input type="text" class="motivo" placeholder="Motivo de contacto" name="motivo"> <br>
+                <label for="mensage">Mensagem</label> <br>
+                <textarea name="mensagem" id="mensagem" cols="80" rows="8"></textarea> <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+       
+    </div>
+    
+   </div>
+
+</body>
+</html>

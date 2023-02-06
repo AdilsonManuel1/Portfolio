@@ -1,0 +1,69 @@
+.contact{
+    width: 80%;
+    background-color: #292929;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50vh;
+    
+ 
+}
+.contact .contact-me{
+   
+    margin-top: 2%;
+    padding: 4%;
+    padding-bottom: 2%;
+    color: aliceblue;
+    background-color: black;
+    width: 30%;
+    height: 35vh;
+    float: left;
+    margin-left: 0.5%;
+}
+.contact .contact-me p{
+    padding: 6%;
+}
+
+.contact .contact-me-send{
+    width: 61%;
+    float: right;
+    background-color: #4e4e4e;
+    height: 44.5vh;
+ 
+    margin-right: 0.5%;
+    margin-top: 2%;
+}
+.contact-me-send .send{
+    padding: 2%;
+    margin: 2%;
+}
+
+.contact-me-send .send label{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.contact-me-send .send input{
+    width: 40%;
+    height: 35px;
+    background-color: #292929;
+    border-radius: 10px;
+}
+
+.contact-me-send .send .motivo{
+    width: 86%;
+}
+@media screen and (max-width: 500px){
+    .contact .contact-me-send{
+        width: 100%;
+    }
+
+    .contact-me{
+        display: none;
+        clear: both;
+    }
+    .contact-me-send .send input{
+        clear: both;
+        width: 100%;
+      
+    }
+}

@@ -1,0 +1,25 @@
+.about h2
+{
+    line-height:42px;
+    position: relative;
+    color: white;
+   text-align: center;
+    margin: 1%;
+    font-size: 3em;
+    padding-top: 1%;
+}
+.about h2 span {
+    text-decoration: underline #4ee129 ;
+}
+.about {
+    width: 100%;
+    background-color: black;
+    height: 30vh;
+}
+.about-desc{
+    color: white;
+    width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+    text-align: center;
+}
